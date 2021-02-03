@@ -71,12 +71,11 @@ header img{
 
 .explorerbtn {
    display: inline-block;
-   border-radius: 25px;
+   border-radius: 50px;
    width: 350px;
    height: 75px;
    color: white;
    font-family: 'Poppins', sans-serif;
    font-size: 1.5rem;
-   text-decoration: none;
    background: linear-gradient(4deg, rgba(254,64,233,1) 46%, rgba(170,52,153,1) 100%);
 }
