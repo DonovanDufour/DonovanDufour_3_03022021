@@ -1,4 +1,6 @@
-body { margin:0px;
+body { 
+   margin:0px;
+   font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -52,30 +54,29 @@ header img{
 
 .reserve h1 {
    font-size: 3.5rem;
-   font-family: 'Poppins', sans-serif;
    font-weight: bold;
    margin-bottom: 30px;
    color: black;
 }
 
 .reserve {
-   font-family: 'Poppins', sans-serif;
    font-size: 2.5rem;
    font-weight: lighter;
    color: #4d4d4d;
 }
 
 .btnexp {
+   margin-top: 75px;
    text-align: center;
 }
 
 .explorerbtn {
    display: inline-block;
+   border: none;
    border-radius: 50px;
    width: 350px;
    height: 75px;
    color: white;
-   font-family: 'Poppins', sans-serif;
    font-size: 1.5rem;
    background: linear-gradient(4deg, rgba(254,64,233,1) 46%, rgba(170,52,153,1) 100%);
 }
