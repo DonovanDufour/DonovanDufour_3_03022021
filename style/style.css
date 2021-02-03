@@ -7,11 +7,11 @@ body {
 }
 
 h1, h2, h3, h4 {
-   margin: 0 0 0 0;
+   margin: 0;
 }
 
 p {
-   margin: 0 0 0 0;
+   margin: 0;
 }
 
 header {
@@ -41,7 +41,7 @@ header img{
    font-family: 'Poppins', sans-serif;
    color: #353535;
    font-size: 2rem;
-   margin: 0 0 0 0;
+   margin: 0;
 }
 
 .reserve {
@@ -81,5 +81,8 @@ header img{
    height: 75px;
    color: white;
    font-size: 1.5rem;
-   background: linear-gradient(4deg, rgba(254,64,233,1) 46%, rgba(170,52,153,1) 100%);
+   background: linear-gradient(to bottom, #e570e7 0%,#e570e7 30%,#c85ec7 60%,#a849a3 100%);
+   box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
+   -webkit-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
 }
