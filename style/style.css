@@ -14,8 +14,8 @@ p {
    margin: 0;
 }
 
-i {
-   margin-right: 15px;
+.fa, .fas {
+   margin-right: 40px;
  }
 
 header {
