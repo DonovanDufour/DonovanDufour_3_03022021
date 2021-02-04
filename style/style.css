@@ -130,7 +130,8 @@ header img{
    align-items: center;
    padding: 1rem;
    border-radius: 50%;
-   background-color: purple;
+   background-color: #9356dc;
+   color: white;
    width: 1rem;
    height: 1rem;
    }
