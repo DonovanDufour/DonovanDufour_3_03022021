@@ -127,8 +127,8 @@ header img{
 
 .circle-num {
    position: absolute;
-   top: 50%;
-   left: -1rem;
+   top: 67%;
+   left: 2rem;
    transform: translateY(-50%);
    display: flex;
    justify-content: center;
@@ -136,6 +136,42 @@ header img{
    padding: 1rem;
    border-radius: 50%;
    background-color:#9356dc;
+   font-size: 2rem;
+   color: white;
    width: 2rem;
    height: 2rem;
    }
+
+   .circle-num2 {
+      position: absolute;
+      top: 67%;
+      left: 2rem;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 50%;
+      background-color:#9356dc;
+      font-size: 2rem;
+      color: white;
+      width: 2rem;
+      height: 2rem;
+      }
+
+      .circle-num3 {
+         position: absolute;
+         top: 67%;
+         left: 2rem;
+         transform: translateY(-50%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 1rem;
+         border-radius: 50%;
+         background-color:#9356dc;
+         font-size: 2rem;
+         color: white;
+         width: 2rem;
+         height: 2rem;
+         }
