@@ -87,7 +87,15 @@ header img{
    -moz-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
 }
 
+.functiontitle {
+   float: left;
+}
+
 .function {
    background-color: #ffffff;
    height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
