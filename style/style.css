@@ -14,6 +14,10 @@ p {
    margin: 0;
 }
 
+i {
+   margin-right: 15px;
+ }
+
 header {
    z-index: 1;
    display: flex;
@@ -97,7 +101,12 @@ header img{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin: 0 50px;
+   margin: 125px 50px;
+}
+
+.functiontitle h1 {
+   font-size: 3.5rem;
+   color: black;
 }
 
 .functionbtn {
