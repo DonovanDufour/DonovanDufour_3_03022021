@@ -18,6 +18,18 @@ p {
    margin-right: 40px;
  }
 
+ .fa-mobile-alt {
+    color: grey;
+ }
+
+ .fa-list {
+    color: grey;
+ }
+
+ .fa-store {
+    color: grey;
+ }
+
 header {
    z-index: 1;
    display: flex;
