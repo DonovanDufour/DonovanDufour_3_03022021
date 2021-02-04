@@ -203,6 +203,10 @@ header img{
    justify-content: center;
 }
 
+.restauranttitle {
+   float: left;
+}
+
 .restauranttitle h1 {
     font-size: 3.5rem;
     color: black;
