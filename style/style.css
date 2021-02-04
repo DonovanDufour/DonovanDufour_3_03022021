@@ -123,3 +123,14 @@ header img{
    -webkit-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
    -moz-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
 }
+
+.circle-num {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+   border-radius: 50%;
+   background-color: purple;
+   width: 1rem;
+   height: 1rem;
+   }
