@@ -204,6 +204,7 @@ header img{
 }
 
 .restauranttitle {
+   margin-top: 50px;
    float: left;
 }
 
@@ -212,10 +213,42 @@ header img{
     color: black;
    }
 
-.restaurantlist {
-   background-image: url(./img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-   width: 100%;
+.restaurantlist1 {
+   background-image: url("../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+   background-size: 100%;
+   width: 90%;
    height: 500px;
    margin: 20px 20px;
-   color: white;
+   border-radius: 30px;
+   background-color: white;
+}
+
+.restaurantlist2 {
+   background-image: url("../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+   background-size: 100%;
+   width: 90%;
+   height: 500px;
+   margin: 20px 20px;
+   border-radius: 30px;
+   background-color: white;
+}
+
+.restaurantlist3 {
+   background-image: url("../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+   background-size: 100%;
+   width: 90%;
+   height: 500px;
+   margin: 20px 20px;
+   border-radius: 30px;
+   background-color: white;
+}
+
+.restaurantlist4 {
+   background-image: url("../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+   background-size: 100%;
+   width: 90%;
+   height: 500px;
+   margin: 20px 20px;
+   border-radius: 30px;
+   background-color: white;
 }
