@@ -125,6 +125,10 @@ header img{
    -moz-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
 }
 
+.functionbtn:hover {
+   background-color: #f5edff;
+   }
+
 .circle-num {
    position: absolute;
    top: 67%;
@@ -140,11 +144,12 @@ header img{
    color: white;
    width: 2rem;
    height: 2rem;
+   z-index: 10;
    }
 
-   .circle-num2 {
+.circle-num2 {
       position: absolute;
-      top: 67%;
+      top: 77%;
       left: 2rem;
       transform: translateY(-50%);
       display: flex;
@@ -157,11 +162,12 @@ header img{
       color: white;
       width: 2rem;
       height: 2rem;
+      z-index: 10;
       }
 
-      .circle-num3 {
+.circle-num3 {
          position: absolute;
-         top: 67%;
+         top: 87%;
          left: 2rem;
          transform: translateY(-50%);
          display: flex;
@@ -174,4 +180,5 @@ header img{
          color: white;
          width: 2rem;
          height: 2rem;
+         z-index: 10;
          }
