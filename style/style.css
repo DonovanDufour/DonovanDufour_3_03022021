@@ -285,6 +285,11 @@ header img{
    font-size: 2rem;
    text-decoration: none;
    margin-top: 20px;
+   width: 485px;
+}
+
+.fas fa-utensil {
+   margin-right: 55px;
 }
 
 .boldfooter {
