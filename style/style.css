@@ -270,12 +270,21 @@ header img{
 
 .containerfooter {
    padding-top: 50px;
-   padding-left: 50px;
+   padding-left: 60px;
+   display: flex;
+   flex-direction: column;
+}
+
+.containerfooter img {
+   width: 300px;
+   margin-bottom: 50px;
 }
 
 .containerfooter a {
    color: white;
    font-size: 2rem;
+   text-decoration: none;
+   margin-top: 20px;
 }
 
 .boldfooter {
