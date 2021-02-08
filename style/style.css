@@ -260,6 +260,13 @@ header img{
    margin-top: 301px;
    border-bottom-left-radius: 30px;
    border-bottom-right-radius: 30px;
+   display: flex;
+   flex-direction: row;
+}
+
+.containertextrest {
+   display: flex;
+   flex-direction: column;
 }
 
 .footerbottom {
