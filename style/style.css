@@ -294,6 +294,10 @@ header img{
    margin-left: 50px;
 }
 
+.subtextrestaurant {
+   font: lighter;
+}
+
 .newtext {
    position: absolute;
    left: 650px;
