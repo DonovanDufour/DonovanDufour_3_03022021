@@ -38,12 +38,6 @@ p {
     cursor: pointer;
  }
 
-.fa-heart:hover .fa-heart:before{
-   content:"\f05d";
-   color:green;
-   opacity:0.4;
- }
-
 /* Header */
 
 header {
