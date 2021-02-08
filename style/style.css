@@ -35,12 +35,14 @@ p {
 .far {
     margin-right: 50px;
     font-size: 4rem;
+    cursor: pointer;
  }
 
-.fa-heart:hover {
-   color: red;
-}
-
+.fa-heart:hover .fa-heart:before{
+   content:"\f05d";
+   color:green;
+   opacity:0.4;
+ }
 
 /* Header */
 
