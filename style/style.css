@@ -32,6 +32,10 @@ p {
     color: grey;
  }
 
+ .far {
+    margin-right: 50px;
+ }
+
 
 /* Header */
 
@@ -267,7 +271,7 @@ header img{
 }
 
 .footerrestaurant {
-   font-size: 4rem;
+   font-size: 3rem;
    background-color: white;
    height: 200px;
    margin-top: 301px;
@@ -276,12 +280,16 @@ header img{
    display: flex;
    flex-direction: row;
    align-items: center;
+   justify-content: space-between;
 }
 
 .containertextrest {
    display: flex;
    flex-direction: column;
-   font-size: 3rem;
+}
+
+.containertextrest p {
+   margin-left: 50px;
 }
 
 /* Footer */
