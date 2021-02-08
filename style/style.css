@@ -32,8 +32,9 @@ p {
     color: grey;
  }
 
- .far {
+.far {
     margin-right: 50px;
+    font-size: 4rem;
  }
 
 
@@ -286,9 +287,6 @@ header img{
 .containertextrest {
    display: flex;
    flex-direction: column;
-}
-
-.containertextrest p {
    margin-left: 50px;
 }
 
