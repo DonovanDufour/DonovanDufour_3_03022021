@@ -294,6 +294,14 @@ header img{
    margin-left: 50px;
 }
 
+.newtext {
+   position: absolute;
+   top: 1850px;
+   left: 650px;
+   background-color: #99e2d0;
+   color: #008766;
+}
+
 /* Footer */
 
 .footerbottom {
