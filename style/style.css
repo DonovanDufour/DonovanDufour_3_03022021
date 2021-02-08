@@ -38,6 +38,10 @@ p {
     cursor: pointer;
  }
 
+.fa-utensils {
+    margin-right: 55px;
+ }
+
 /* Header */
 
 header {
@@ -295,7 +299,7 @@ header img{
 }
 
 .subtextrestaurant {
-   font: bolder;
+   font-weight: bolder;
 }
 
 .newtext {
