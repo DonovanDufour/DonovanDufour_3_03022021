@@ -37,6 +37,10 @@ p {
     font-size: 4rem;
  }
 
+.fa-heart:hover {
+   color: linear-gradient(0deg, rgba(254,64,233,1) 46%, rgba(170,52,153,1) 70%);
+}
+
 
 /* Header */
 
@@ -234,6 +238,7 @@ header img{
 .restaurantlist1 {
    background-image: url("../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
    background-size: 100%;
+   background-position: bottom 65px right;
    width: 90%;
    height: 500px;
    margin: 20px 20px;
@@ -244,6 +249,7 @@ header img{
 .restaurantlist2 {
    background-image: url("../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
    background-size: 100%;
+   background-position: bottom 65px right;
    width: 90%;
    height: 500px;
    margin: 20px 20px;
@@ -254,6 +260,7 @@ header img{
 .restaurantlist3 {
    background-image: url("../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
    background-size: 100%;
+   background-position: bottom 65px right;
    width: 90%;
    height: 500px;
    margin: 20px 20px;
@@ -264,6 +271,7 @@ header img{
 .restaurantlist4 {
    background-image: url("../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
    background-size: 100%;
+   background-position: bottom 65px right;
    width: 90%;
    height: 500px;
    margin: 20px 20px;
