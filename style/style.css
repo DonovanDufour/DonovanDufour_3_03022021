@@ -80,8 +80,6 @@ p {
 }
 
 @keyframes wraploader {
-   from {transform: rotate(0deg);}
-  to {transform: rotate(720deg);}
   100% {
      z-index: -50;
      opacity: 0;
