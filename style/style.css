@@ -53,22 +53,17 @@ p {
     width: 500px;
     height: 15px;
     background:#BE90D4;
-     -webkit-animation: loader7 3s linear infinite;
    animation: loader7 5s forwards;
  }
  
  
- @keyframes loader7 {
+@keyframes loader7 {
     from {transform: rotate(0deg);}
    to {transform: rotate(720deg);}
    100% {
       z-index: -50;
       opacity: 0;
     }
- }
- @-webkit-keyframes loader7 {
-    from {-webkit-transform: rotate(0deg);}
-   to {-webkit-transform: rotate(720deg);}
  }
 
 .wraploader {
@@ -81,6 +76,16 @@ p {
    background-color: white;
    z-index: 1000;
    align-items: center;
+   animation: wraploader 5s forwards;
+}
+
+@keyframes wraploader {
+   from {transform: rotate(0deg);}
+  to {transform: rotate(720deg);}
+  100% {
+     z-index: -50;
+     opacity: 0;
+   }
 }
 
 /* Header */
