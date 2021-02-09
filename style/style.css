@@ -63,6 +63,7 @@ p {
    to {transform: rotate(720deg);}
    100% {
       z-index: -50;
+      opacity: 0;
     }
  }
  @-webkit-keyframes loader7 {
