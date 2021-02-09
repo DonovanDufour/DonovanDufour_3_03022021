@@ -168,6 +168,11 @@ header img{
    -moz-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
 }
 
+.explorerbtn:hover {
+   -webkit-box-shadow: 5px 5px 15px 5px #FFD5FD; 
+   box-shadow: 5px 5px 15px 5px #FFD5FD;
+}
+
 /* Function */
 
 .functiontitle {
@@ -206,6 +211,8 @@ header img{
 
 .functionbtn:hover {
    background-color: #f5edff;
+   -webkit-box-shadow: 5px 5px 15px 5px #FFD5FD; 
+   box-shadow: 5px 5px 15px 5px #FFD5FD;
    }
 
 .circle-num {
@@ -349,6 +356,7 @@ header img{
 
 .subtextrestaurant {
    font-weight: bolder;
+   margin-bottom: 10px;
 }
 
 .newtext {
