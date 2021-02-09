@@ -44,7 +44,7 @@ p {
 
 .far:hover {
    font-weight: bold;
-   color: linear-gradient(0deg, rgba(254,64,233,1) 27%, rgba(191,55,173,1) 89%, rgba(170,52,153,1) 100%);
+   color: #9356dc;
 }
 
 .fa-utensils {
