@@ -76,7 +76,7 @@ p {
    background-color: white;
    z-index: 1000;
    align-items: center;
-   animation: wraploader 5s forwards;
+   animation: wraploader 8s forwards;
 }
 
 @keyframes wraploader {
