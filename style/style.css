@@ -272,7 +272,7 @@ header img{
 
 /* Restaurants */
 
-.restauranttitle {
+.restauranttitle a {
    text-decoration: none;
    color: black;
 }
