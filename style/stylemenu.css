@@ -122,16 +122,20 @@
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .price {
     margin-left: auto;
+    font-weight: bold;
 }
 
 .boldtitle {
     font-weight: bold;
+}
+
+.smallleftcontainer {
+    margin-bottom: 20px;
 }
 
  /* Footer */
