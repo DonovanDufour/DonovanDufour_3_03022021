@@ -272,7 +272,7 @@ header img{
 
 /* Restaurants */
 
-.restaurantlist1, .restaurantlist2, .restaurantlist3, .restaurantlist4 {
+.restaurantlist1 a, .restaurantlist2 a, .restaurantlist3 a, .restaurantlist4 a {
    text-decoration: none;
    color: black;
 }
