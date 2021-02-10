@@ -272,6 +272,11 @@ header img{
 
 /* Restaurants */
 
+.restauranttitle {
+   text-decoration: none;
+   color: black;
+}
+
 .containerrestaurants {
    background-color: #f6f6f6;
    display: flex;
