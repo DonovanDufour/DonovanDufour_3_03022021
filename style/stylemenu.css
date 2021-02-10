@@ -69,6 +69,13 @@
     margin-right: 50px;
 }
 
+.containerplats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
  /* Footer */
 
 .footerbottom {
