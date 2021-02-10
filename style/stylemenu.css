@@ -56,6 +56,8 @@
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     margin-top: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .restauranttitle {
@@ -67,18 +69,16 @@
     padding-top: 70px;
 }
 
-.restauranttitle p {
-    margin-left: 50px;
-}
-
-.fa-heart {
-    margin-right: 50px;
-}
-
 .containerplats {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.containersubplats {
+    background-color: white;
+    height: 150px;
+    border-radius: 50px;
 }
 
  /* Footer */
