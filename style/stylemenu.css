@@ -42,6 +42,22 @@
    background-size: 100%;
 }
 
+
+/* Container Menu  */
+
+.containermenu {
+    background-color: #f6f6f6;
+    font-family: 'Roboto';
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.restauranttitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
  /* Footer */
 
 .footerbottom {
