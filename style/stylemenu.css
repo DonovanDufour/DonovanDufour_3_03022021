@@ -58,6 +58,15 @@
     align-items: center;
     font-size: 3rem;
     font-family: 'Shrikhand', cursive;
+    padding-top: 20px;
+}
+
+.restauranttitle p {
+    margin-left: 50px;
+}
+
+.fa-heart {
+    margin-right: 50px;
 }
 
  /* Footer */
