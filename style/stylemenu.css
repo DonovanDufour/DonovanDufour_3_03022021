@@ -27,7 +27,7 @@
     width: 100%;
     opacity: 0;
     animation-name: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
@@ -123,11 +123,14 @@
     margin-bottom: 30px;
     display: flex;
     align-items: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .price {
     margin-left: auto;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .boldtitle {
