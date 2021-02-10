@@ -8,6 +8,12 @@
  
  
  /* Header */
+
+.fa-arrow-left {
+    font-size: 3rem;
+    position: absolute;
+    left: 60px;
+}
  
  header {
     z-index: 1;
