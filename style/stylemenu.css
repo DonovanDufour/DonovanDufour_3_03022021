@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
  }
  
+ a {
+     text-decoration: none;
+     color: black;
+ }
  
  /* Header */
 
@@ -13,6 +17,7 @@
     font-size: 3rem;
     position: absolute;
     left: 60px;
+    top: 45px;
 }
  
  header {
