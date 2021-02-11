@@ -41,15 +41,14 @@
     animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    transform: translateX(50px);
   }
   
 .item1 {
-    animation-delay: 7s;
+    animation-delay: 3s;
   }
   
 .item2 {
-    animation-delay: 9s;
+    animation-delay: 4s;
   }
   
   @keyframes fadeIn {
