@@ -164,59 +164,6 @@
 
 /* Animation selection */
 
-/* Création de l'animation de la case à cocher sur les plats */
-
-.selectionconfirmation {
-      position: relative;
-      border-radius: 0 20px 20px 0;
-      height: 120%;
-      width: 80px;
-      margin-top: -5px;
-      margin-bottom: -8px;
-      opacity: 0;
-      transform-origin: right;
-      transform: scaleX(0);
-      transition: opacity 100ms, transform 300ms 100ms linear;
-  }
-.selectionwrap {
-      position: absolute;
-      top: calc(50% - 18px);
-      left: calc(50% - 18px);
-      border-radius: 50%;
-      width: 32px;
-      height: 32px;
-      transform:rotate(0deg);
-      transition: transform 300ms 100ms linear;
-  }
-  
-  .fa-check {
-      border-top: 5px solid red;
-      border-left: 5px solid red;
-      position: absolute;
-      top: 4px;
-      left: 8px;
-      width: 10px;
-      height: 14px;
-      border-radius: 1px;
-      transform: rotate(220deg);    
-  }
-
-.containertxtplats:hover {
-  background: transparentize(red, 0.85);
-  cursor: pointer;
-}
-  .price:hover {
-      transform: translateX(-70px);
-  }
-
-.selectionconfirmation {
-          opacity: 1;
-          transform: scaleX(1);
-      }
-
-      .selectionwrap     {
-              transform: rotate(360deg);
-      }
 
 /* Button */
 
