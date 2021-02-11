@@ -152,6 +152,32 @@
     margin-bottom: 20px;
 }
 
+/* Button */
+
+.btnexp {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.explorerbtn {
+  display: inline-block;
+  border: none;
+  border-radius: 80px;
+  width: 515px;
+  height: 125px;
+  color: white;
+  font-size: 2.4rem;
+  background: linear-gradient(to bottom, #e570e7 0%,#e570e7 30%,#c85ec7 60%,#a849a3 100%);
+  box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
+}
+
+.explorerbtn:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #FFD5FD; 
+  box-shadow: 5px 5px 15px 5px #FFD5FD;
+}
+
  /* Footer */
 
 .footerbottom {
