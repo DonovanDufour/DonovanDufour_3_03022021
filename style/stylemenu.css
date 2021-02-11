@@ -23,6 +23,14 @@
      margin-right: 50px;
  }
 
+ .fa-utensils {
+   margin-right: 20px;
+ }
+
+ .fa-hands-helping {
+   margin-right: 20px;
+ }
+
  .far:hover {
   font-weight: bold;
   color: #9356dc;
@@ -152,6 +160,15 @@
 
 .soustitre {
   font-size: 38px;
+}
+
+/* Animation selection */
+
+.selectionconfirmation {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
 }
 
 /* Button */
