@@ -16,11 +16,18 @@
      width: 60px;
      font-size: 2.5rem;
      margin-top: 60px;
+     text-transform: uppercase;
+     font-family: 'Poppins';
  }
 
  .fa-heart {
      margin-right: 50px;
  }
+
+ .far:hover {
+  font-weight: bold;
+  color: #9356dc;
+}
 
  /* Animation */
 
@@ -134,6 +141,7 @@
     margin-left: auto;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: 'Poppins';
 }
 
 .boldtitle {
