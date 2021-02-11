@@ -52,11 +52,11 @@
   }
   
 .item1 {
-    animation-delay: 3s;
+    animation-delay: 2s;
   }
   
 .item2 {
-    animation-delay: 4s;
+    animation-delay: 3s;
   }
   
   @keyframes fadeIn {
@@ -164,17 +164,63 @@
 
 /* Animation selection */
 
-.selectionconfirmation {
-  background-color: #99e2d0;
-  height: 150px;
-}
-
-.selectionwrap {
-  background-color: white;
-}
-
 .containertxtplats:hover {
   background-color: #FFD5FD;
+  cursor: pointer;
+}
+
+/* Test */
+
+.animcontainer {
+  background: #99e2d0;
+  position: relative;
+  box-shadow: 2px 4px 8px 3px #e6e6e6;
+  border-radius: 0 20px 20px 0;
+  height: 120%;
+  width: 80px;
+  margin-top: -5px;
+  margin-bottom: -8px;
+  opacity: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: opacity 100ms, transform 300ms 100ms linear;
+}
+.animcircle {
+  background: #fff;
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 18px);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  transform: rotate(0deg);
+  transition: transform 300ms 100ms linear;
+}
+.animicon {
+  border-top: 5px solid #99e2d0;
+  border-left: 5px solid #99e2d0;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  width: 10px;
+  height: 14px;
+  border-radius: 1px;
+  transform: rotate(220deg);
+}
+.containertxtplats:hover {
+  background: rgba(147, 86, 220, 0.15);
+  cursor: pointer;
+}
+.containertxtplats:hover .price {
+  transform: translateX(-70px);
+}
+
+.containertxtplats:hover .animcontainer {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.containertxtplats:hover .animcircle {
+  transform: rotate(360deg);
 }
 
 /* Button */
