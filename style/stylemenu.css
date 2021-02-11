@@ -28,6 +28,10 @@
   color: #9356dc;
 }
 
+.fa-check {
+  color: #99e2d0;
+}
+
  /* Animation */
 
  .containerplats {
@@ -39,16 +43,12 @@
     animation-fill-mode: forwards;
   }
   
-  li:nth-child(2) > .containerplats {
+  li:nth-child(2) > .item1 {
     animation-delay: 3s;
   }
   
-  li:nth-child(3) > .containerplats {
+  li:nth-child(3) > .item2 {
     animation-delay: 6s;
-  }
-  
-  li:nth-child(4) > .containerplats {
-    animation-delay: 9s;
   }
   
   @keyframes fadeIn {
