@@ -43,12 +43,12 @@
     animation-fill-mode: forwards;
   }
   
-  li:nth-child(2) > .item1 {
-    animation-delay: 3s;
+.item1 {
+    animation-delay: 8s;
   }
   
-  li:nth-child(3) > .item2 {
-    animation-delay: 6s;
+.item2 {
+    animation-delay: 15s;
   }
   
   @keyframes fadeIn {
