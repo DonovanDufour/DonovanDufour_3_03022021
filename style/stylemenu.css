@@ -151,13 +151,15 @@
 }
 
 .soustitre {
-  font-size: 30px;
+  font-size: 38px;
 }
 
 /* Button */
 
 .btnexp {
+  background-color: #f6f6f6;
   margin-top: 75px;
+  margin-bottom: 75px;
   text-align: center;
 }
 
