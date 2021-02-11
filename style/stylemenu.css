@@ -164,6 +164,18 @@
 
 /* Animation selection */
 
+.selectionconfirmation {
+  background-color: #99e2d0;
+  height: 150px;
+}
+
+.selectionwrap {
+  background-color: white;
+}
+
+.containertxtplats:hover {
+  color: #FFD5FD;
+}
 
 /* Button */
 
