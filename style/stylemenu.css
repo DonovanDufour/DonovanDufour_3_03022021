@@ -150,6 +150,10 @@
     margin-bottom: 20px;
 }
 
+.smallleftcontainer p {
+  font-size: 30px;
+}
+
 /* Button */
 
 .btnexp {
