@@ -299,14 +299,8 @@
     font-weight: bold;
  }
 
- @media only screen and (min-width: 801px) {
+ @media only screen and (min-width: 800px) {
   .animcontainer {
     left: 830px;
-  }
-}
-
-@media only screen and (max-width : 800px) {
-  .animcontainer {
-    left: 300px;
   }
 }
