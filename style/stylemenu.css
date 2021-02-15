@@ -24,7 +24,7 @@
  }
 
  .fa-utensils {
-   margin-right: 20px;
+   margin-right: 35px;
  }
 
  .fa-hands-helping {
@@ -299,13 +299,13 @@
     font-weight: bold;
  }
 
- @media only screen and (min-width : 1024px) {
+ @media only screen and (min-width : 900px) {
   .animcontainer {
-    left: 820px;
+    left: 830px;
   }
 }
 
-@media only screen and (min-width : 900px) {
+@media only screen and (min-width : 600px) {
   .animcontainer {
     left: 300px;
   }
