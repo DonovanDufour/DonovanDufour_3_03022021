@@ -226,11 +226,12 @@
 }
 
 .containertxtplats:hover .smallleftcontainer {
-  transition: transform 300ms 100ms linear;
+  transition: transform 300ms 100ms ease-in-out;
   overflow: hidden;
   width: 50%;
   white-space: nowrap;
   transition-duration: 0.5s;
+  text-overflow: ellipsis;
 }
 
 /* Button */
