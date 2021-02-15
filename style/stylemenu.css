@@ -175,10 +175,11 @@
   background: #99e2d0;
   position: relative;
   box-shadow: 2px 4px 8px 3px #e6e6e6;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 50px 50px 0;
   height: 150px;
   width: 115px;
   opacity: 0;
+  left: 35px;
   transform-origin: right;
   transform: scaleX(0);
   transition: opacity 100ms, transform 300ms 100ms linear;
@@ -198,8 +199,8 @@
   border-top: 7px solid #99e2d0;
   border-left: 7px solid #99e2d0;
   position: absolute;
-  top: 75px;
-  left: 8px;
+  top: 3px;
+  left: 6px;
   width: 10px;
   height: 14px;
   border-radius: 1px;
