@@ -219,7 +219,7 @@
   opacity: 1;
   transform: scaleX(1);
 }
-.containertxtplats:hover .animcircle {
+.containertxtplats:hover .animicon {
   transform: rotate(360deg);
 }
 
