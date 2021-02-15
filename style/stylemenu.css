@@ -225,6 +225,14 @@
   transition-duration: 0.5s;
 }
 
+.containertxtplats:hover .smallleftcontainer {
+  transition: transform 300ms 100ms linear;
+  overflow: hidden;
+  width: 50%;
+  white-space: nowrap;
+  transition-duration: 0.5s;
+}
+
 /* Button */
 
 .btnexp {
