@@ -220,7 +220,8 @@
   transform: scaleX(1);
 }
 .containertxtplats:hover .animicon {
-  transform: rotate(360deg);
+  transition: transform 300ms 100ms linear;
+  transform: rotate(220deg);
 }
 
 /* Button */
