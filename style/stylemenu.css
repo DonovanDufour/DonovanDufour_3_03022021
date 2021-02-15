@@ -210,7 +210,9 @@
   cursor: pointer;
 }
 .containertxtplats:hover .price {
+  transition: transform 300ms 100ms linear;
   transform: translateX(-70px);
+  transition-duration: 0.5s;
 }
 
 .containertxtplats:hover .animcontainer {
@@ -219,7 +221,8 @@
 }
 .containertxtplats:hover .animicon {
   transition: transform 300ms 100ms linear;
-  transform: rotate(360deg);
+  transform: rotate(220deg);
+  transition-duration: 0.5s;
 }
 
 /* Button */
