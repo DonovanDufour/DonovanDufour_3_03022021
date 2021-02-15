@@ -293,15 +293,3 @@
  .boldfooter {
     font-weight: bold;
  }
-
- @media only screen and (min-width : 1024px) {
-  .animcontainer {
-    left: 820px;
-  }
-}
-
-@media only screen and (min-width : 900px) {
-  .animcontainer {
-    left: 300px;
-  }
-}
