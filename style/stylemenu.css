@@ -232,11 +232,14 @@
 
 .containertxtplats:hover .smallleftcontainer {
   transition: transform 300ms 100ms ease-in-out;
-  overflow: hidden;
   width: 455px;
-  white-space: nowrap;
   transition-duration: 0.5s;
-  text-overflow: ellipsis;
+}
+
+.containertxtplats:hover .smallleftcontainer p {
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 /* Button */
