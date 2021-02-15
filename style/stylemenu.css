@@ -190,21 +190,20 @@
   top: calc(50% - 18px);
   left: calc(50% - 18px);
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   transform: rotate(0deg);
   transition: transform 300ms 100ms linear;
 }
 .animicon {
-  border-top: 7px solid #99e2d0;
-  border-left: 7px solid #99e2d0;
+  border-top: 8px solid #99e2d0;
+  border-left: 8px solid #99e2d0;
   position: absolute;
-  top: 3px;
-  left: 6px;
+  top: 5px;
+  left: 8px;
   width: 10px;
   height: 14px;
   border-radius: 1px;
-  transform: rotate(220deg);
 }
 .containertxtplats:hover {
   background: rgba(147, 86, 220, 0.15);
@@ -219,7 +218,8 @@
   transform: scaleX(1);
 }
 .containertxtplats:hover .animicon {
-  transform: rotate(220deg);
+  transition: transform 300ms 100ms linear;
+  transform: rotate(360deg);
 }
 
 /* Button */
