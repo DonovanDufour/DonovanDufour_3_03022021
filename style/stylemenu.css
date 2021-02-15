@@ -155,6 +155,7 @@
 }
 
 .smallleftcontainer {
+  white-space: nowrap;
     margin-bottom: 20px;
 }
 
