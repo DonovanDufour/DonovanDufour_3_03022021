@@ -228,7 +228,7 @@
 .containertxtplats:hover .smallleftcontainer {
   transition: transform 300ms 100ms ease-in-out;
   overflow: hidden;
-  width: 50%;
+  width: 455px;
   white-space: nowrap;
   transition-duration: 0.5s;
   text-overflow: ellipsis;
