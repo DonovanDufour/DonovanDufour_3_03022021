@@ -172,6 +172,10 @@
 
 /* Test */
 
+.anim {
+  width: 0px;
+}
+
 .animcontainer {
   background: #99e2d0;
   position: relative;
