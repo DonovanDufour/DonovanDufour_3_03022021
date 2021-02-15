@@ -176,7 +176,7 @@
   position: relative;
   box-shadow: 2px 4px 8px 3px #e6e6e6;
   border-radius: 0 20px 20px 0;
-  height: 120%;
+  height: 120px;
   width: 80px;
   margin-top: -5px;
   margin-bottom: -8px;
@@ -197,10 +197,10 @@
   transition: transform 300ms 100ms linear;
 }
 .animicon {
-  border-top: 5px solid #99e2d0;
-  border-left: 5px solid #99e2d0;
+  border-top: 7px solid #99e2d0;
+  border-left: 7px solid #99e2d0;
   position: absolute;
-  top: 4px;
+  top: -80px;
   left: 8px;
   width: 10px;
   height: 14px;
@@ -220,7 +220,6 @@
   transform: scaleX(1);
 }
 .containertxtplats:hover .animicon {
-  transition: transform 300ms 100ms linear;
   transform: rotate(220deg);
 }
 
