@@ -272,6 +272,13 @@ header img{
 
 /* Restaurants */
 
+.link1 {
+   position: absolute;
+   height: 460px;
+   width: 670px;
+   top: 1820px;
+}
+
 .restaurantlist1 a, .restaurantlist2 a, .restaurantlist3 a, .restaurantlist4 a {
    text-decoration: none;
    color: black;
