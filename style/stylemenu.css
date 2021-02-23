@@ -42,7 +42,7 @@
 
  /* Animation */
 
- .containerplats {
+ .containertxtplats {
     width: 100%;
     opacity: 0;
     animation-name: fadeIn;
