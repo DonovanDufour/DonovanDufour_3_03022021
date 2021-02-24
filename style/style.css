@@ -5,9 +5,15 @@
 body { 
    font-family: 'Roboto', sans-serif;
 }
+
 a {
    text-decoration: none;
    color: black;
+}
+
+button {
+   cursor: pointer;
+   font-weight: 600;
 }
 
 .wrapcontent {
