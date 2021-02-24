@@ -188,11 +188,11 @@
 .animcircle {
   background: #fff;
   position: absolute;
-  top: calc(50% - 18px);
-  left: calc(50% - 18px);
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   transform: rotate(0deg);
   transition: transform 300ms 100ms ease-in-out;
 }
@@ -200,10 +200,10 @@
   border-top: 8px solid #99e2d0;
   border-left: 8px solid #99e2d0;
   position: absolute;
-  top: 5px;
-  left: 10px;
-  width: 10px;
-  height: 14px;
+  top: 8px;
+  left: 15px;
+  width: 15px;
+  height: 25px;
   border-radius: 1px;
 }
 .containertxtplats:hover {
