@@ -11,6 +11,13 @@
      color: black;
  }
 
+ .far:hover {
+  font-weight: bold;
+  color: #e04fe3;
+  transition: all 1s cubic-bezier(0.000, 0.000, 0.530, 2);
+ background-position: 0%;
+}
+
  h1 {
      border-bottom: 8px solid #99e2d0;
      width: 60px;
@@ -26,11 +33,6 @@
  .fa-hands-helping {
    margin-right: 20px;
  }
-
- .far:hover {
-  font-weight: bold;
-  color: #9356dc;
-}
 
 .fa-check {
   color: #99e2d0;
