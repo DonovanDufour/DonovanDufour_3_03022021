@@ -248,10 +248,14 @@ header img{
    color: #9356dc;
 }
 
+.btfunction {
+   position: relative;
+}
+
 .circle-num {
    position: absolute;
-   top: 1157px;
-   left: 2rem;
+   top: 110px;
+   left: -2rem;
    transform: translateY(-50%);
    display: flex;
    justify-content: center;
@@ -268,8 +272,8 @@ header img{
 
 .circle-num2 {
       position: absolute;
-      top: 1333px;
-      left: 2rem;
+      top: 110px;
+      left: -2rem;
       transform: translateY(-50%);
       display: flex;
       justify-content: center;
@@ -286,8 +290,8 @@ header img{
 
 .circle-num3 {
          position: absolute;
-         top: 1507px;
-         left: 2rem;
+         top: 110px;
+         left: -2rem;
          transform: translateY(-50%);
          display: flex;
          justify-content: center;
@@ -337,6 +341,7 @@ header img{
 
 .restaurantListing {
    margin-bottom: 50px;
+   position: relative;
 }
 
 .footerrestaurant {
@@ -364,7 +369,7 @@ header img{
 
 .newtext {
    position: absolute;
-   left: 610px;
+   left: 515px;
    margin-top: 25px;
    background-color: #99e2d0;
    color: #008766;
@@ -410,4 +415,129 @@ header img{
 
 .boldfooter {
    font-weight: bold;
+}
+
+@media only screen and (min-width: 1025px) {
+
+   .logocontainer img {
+      width: 180px;
+      padding-bottom: 10px;
+   }
+
+   .logo {
+      padding-bottom: 0px;
+   }
+
+   #placetext {
+      font-size: 1rem;
+   }
+
+   .reserve {
+      height: 400px;
+   }
+
+   .reserve h1 {
+      font-size: 2.5rem;
+   }
+
+   .reserve p {
+      font-size: 1.5rem;
+   }
+   .explorerbtn {
+      font-size: 1.4rem;
+      width: 325px;
+      height: 75px;
+   }
+
+   .function {
+      justify-content: center;
+      align-items: center;
+      margin: 80px 25px;
+   }
+
+   .functionbtn {
+      width: 1000px;
+      height: 90px;
+      font-size: 1.5rem;
+   }
+
+   .circle-num, .circle-num2, .circle-num3 {
+      width: 1rem;
+      height: 1rem;
+      font-size: 1.2rem;
+      top: 90px;
+      left: -1rem;
+   }
+
+   .functiontitle {
+      margin-left: -810px;
+   }
+
+   .place {
+      height: 50px;
+   }
+
+   .functiontitle h1 {
+      font-size: 1.5rem;
+   }
+
+   .function {
+      height: 400px;
+   }
+
+   .newtext {
+      left: 390px;
+      font-size: 2rem;
+      width: 160px;
+   }
+
+   .containertxtrest {
+      font-size: 2.5rem;
+   }
+
+   .containerrestaurants {
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 50px;
+      border-radius: 100px;
+   }
+
+   .restauranttitle h1 {
+      margin-left: -5px;
+      font-size: 2.5rem;
+   }
+
+   .imageRestaurant {
+      width: 590px;
+      height: 300px;
+   }
+
+   .break {
+      flex-basis: 100%;
+   }
+
+   .restaurantListing {
+      margin-left: 50px;
+      margin-right: 50px;
+   }
+
+   .restauranttitle {
+      width: 100%;
+      margin-left: 75px;
+   }
+
+   .containerfooter a {
+      font-size: 2rem;
+      width: 635px;
+   }
+
+   .footerbottom {
+      height: 450px;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+   }
+
+   .containerfooter img {
+      width: 220px;
+   }
 }
