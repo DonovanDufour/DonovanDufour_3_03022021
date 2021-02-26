@@ -324,3 +324,84 @@
  .boldfooter {
     font-weight: bold;
  }
+
+@media only screen and (min-width: 1024px) {
+
+  header img {
+    width: 180px;
+  }
+
+  header {
+    padding-bottom: 15px;
+  }
+
+  .containermenu {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .animcontainer {
+    border-radius: 0 20px 20px 0;
+    height: 85px;
+  }
+
+  .restauranttitle {
+    font-size: 2.5rem;
+  }
+
+  .containertxtplats {
+    height: 85px;
+    font-size: 17px;
+    width: 375px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+  .menuwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 60px;
+  }
+
+  .soustitre {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    width: 45px;
+  }
+
+  .fa-arrow-left {
+    font-size: 2rem;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+}
+
+  .far {
+     font-size: 3rem;
+  }
+
+  .footerbottom {
+     height: 450px;
+     margin: 0 50px;
+  }
+
+  .containerfooter img {
+     width: 220px;
+  }
+
+  .btnexp {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .explorerbtn {
+    width: 330px;
+    height: 100px;
+    font-size: 1.4rem;
+  }
+  
+}

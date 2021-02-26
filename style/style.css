@@ -502,13 +502,18 @@ header img{
       border-radius: 100px;
    }
 
+   .containerrestaurants a {
+      width: 100%;
+      flex: 50%;
+   }
+
    .restauranttitle h1 {
       margin-left: -5px;
       font-size: 2.5rem;
    }
 
    .imageRestaurant {
-      width: 580px;
+      width: 100%;
       height: 225px;
    }
 
