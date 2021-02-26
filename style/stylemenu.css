@@ -362,7 +362,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 60px;
     flex-wrap: wrap;
   }
 
@@ -382,6 +381,10 @@
     top: 25px;
 }
 
+.fa-utensils {
+  margin-right: 28px;
+}
+
   .far {
      font-size: 3rem;
   }
@@ -392,7 +395,11 @@
   }
 
   .containerfooter img {
-     width: 220px;
+     width: 150px;
+  }
+
+  .containerfooter a {
+    font-size: 1rem;
   }
 
   .btnexp {
