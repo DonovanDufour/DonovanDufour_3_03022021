@@ -63,7 +63,7 @@ p {
 }
 
 .fa-utensils {
-    margin-right: 55px;
+    margin-right: 44px;
  }
 
 /* Loader */
@@ -369,7 +369,7 @@ header img{
 
 .newtext {
    position: absolute;
-   left: 515px;
+   right: 35px;
    margin-top: 25px;
    background-color: #99e2d0;
    color: #008766;
@@ -486,7 +486,6 @@ header img{
    }
 
    .newtext {
-      left: 390px;
       font-size: 2rem;
       width: 160px;
    }
@@ -532,7 +531,7 @@ header img{
    }
 
    .containerfooter a {
-      font-size: 2rem;
+      font-size: 1rem;
       width: 635px;
    }
 
@@ -546,8 +545,10 @@ header img{
 
    .footerbottom {
       height: 450px;
-      border-top-left-radius: 100px;
-      border-top-right-radius: 100px;
+   }
+
+   .fa-utensils {
+      margin-right: 36px;
    }
 
    .containerfooter img {
