@@ -419,3 +419,31 @@
   }
   
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+  .footerbottom {
+    margin: 0;
+  }
+
+  .btnexp {
+    margin: 0;
+  }
+
+  .containermenu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .containerplats {
+    width: 100%;
+  }
+
+  .containertxtplats {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .soustitre {
+    font-size: 22px;
+  }
+}
