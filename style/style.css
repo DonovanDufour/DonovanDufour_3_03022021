@@ -1,3 +1,6 @@
+.wraploader{
+   display: none!important ;
+}
 * {
    margin: 0;
 }
@@ -31,7 +34,7 @@ p {
 /* Icons */
 
 .fa, .fas {
-   margin-right: 30px;
+   margin-right: 15px;
  }
 
  .fa-mobile-alt {
@@ -222,8 +225,8 @@ header img{
    width: 100%;
    height: 130px;
    margin-top: 45px;
+   font-size: 24px;
    color: black;
-   font-size: 2.5vh;
    background: #f6f6f6;
    box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
    -webkit-box-shadow: -1px -4px 79px -25px rgba(0,0,0,0.75);
@@ -418,6 +421,126 @@ header img{
 .boldfooter {
    font-weight: bold;
 }
+   @media(max-width: 1200px){
+      .footerrestaurant p{
+         font-size: 22px;
+      }
+   }
+
+@media screen and (max-width: 1024px) {
+   header img {
+    width: 180px;
+    box-sizing: border-box;
+}
+.place{
+   height: 50px;
+}
+#placetext{
+   font-size: 16px;
+}
+.reserve h1{
+   font-size: 24px;
+}
+p{
+   font-size: 16px;
+}
+.explorerbtn{
+   width: 100%;
+   height: auto;
+   padding:15px 20px;
+   font-size: 18px;
+}
+.reserve{
+   height: auto;
+   padding:50px 0px;
+}
+.btnexp{
+   margin-top: 35px;
+}
+.function{
+   height: auto;
+   margin:0;
+   padding: 50px 20px 50px 40px;
+}
+.functionbtn{
+   height: 70px;
+   font-size: 16px;
+   box-shadow: 0px 4px 11px 0px rgb(0 0 0 / 12%)!important;
+}
+.functionbtn i{
+   margin: 0px 40px 0px 40px;
+   width: 10px;
+}
+.circle-num , .circle-num2 , .circle-num3 {
+    position: absolute;
+    top: 81px;
+    left: -20px;
+    font-size: 14px;
+    width: 5px;
+    height: 5px;
+    z-index: 10;
+}
+.functiontitle h1{
+   margin-left: -20px;
+}
+.restauranttitle{
+   width: 100%;
+   margin-bottom: 25px;
+}
+.restauranttitle h1{
+   margin-left: 0px;
+   font-size: 21px;
+}
+.containerrestaurants{
+   padding: 20px;
+}
+.restaurantListing{
+   margin-left: 0px;
+   margin-right: 0px;
+}
+.imageRestaurant{
+   height: 200px;
+   border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.newtext {
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+    background-color: #99e2d0;
+    color: #008766;
+    text-align: center;
+    border-radius: 5px;
+    width: auto;
+    font-size: 3rem;
+    padding: 5px 10px;
+}
+.footerrestaurant{
+   height: auto;
+}
+.containertxtrest{
+   margin-left: 15px;
+   padding: 15px 0px;
+}
+.footerrestaurant i{
+   font-size: 24px;
+}
+.containerfooter{
+   padding-left: 20px;
+}
+.containerfooter img{
+   width: 220px;
+   margin-bottom: 20px;
+}
+.containerfooter a{
+   width: 100%;
+   font-size: 16px;
+}
+.footerbottom{
+   height: auto;
+   padding-bottom: 50px;
+}
+}  
 
 
 @media only screen and (min-width: 1024px) {
@@ -461,7 +584,8 @@ header img{
    .functionbtn {
       width: 1000px;
       height: 90px;
-      font-size: 1.5rem;
+      font-size: 24px;
+      border-radius: 22px;
    }
 
    .circle-num, .circle-num2, .circle-num3 {
@@ -558,6 +682,7 @@ header img{
       width: 220px;
    }
 }
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1024px) {
    .functionbtn {
