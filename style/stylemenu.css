@@ -533,6 +533,11 @@ margin-right: 28px;
   margin: 0;
 }
 
+.menuwrapper {
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
 .containermenu {
   margin-left: 0;
   margin-right: 0;
